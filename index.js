@@ -4,8 +4,6 @@ const util = require("util");
 const axios = require("axios");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const writeFileAsync = util.promisify(fs.writeFile);
-const api = require("./utils/api.js");
-
 
 const questions = [
     {
